@@ -1,0 +1,26 @@
+                     :-) GROMACS - gmx trjconv, 2023.3 (-:
+
+Executable:   /ext3/apps/gromacs/2023.3/openmpi/intel/bin/gmx_mpi
+Data prefix:  /ext3/apps/gromacs/2023.3/openmpi/intel
+Working dir:  /scratch/work/courses/CHEM-GA-2671-2024fa/students/ap8064/comp-lab-class-2024/Week4-CharmmGuiSetup/Setup/WaterIons_ CHARMM36M
+Command line:
+  gmx_mpi trjconv -s step5_5.tpr -f combined.xtc -o unwrapped.xtc -pbc nojump -n index.ndx
+
+Will write xtc: Compressed trajectory (portable xdr format): xtc
+Reading file step5_5.tpr, VERSION 2023.3 (single precision)
+Reading file step5_5.tpr, VERSION 2023.3 (single precision)
+Group     0 (           SOLV) has 11633 elements
+Group     1 (         SYSTEM) has 11633 elements
+Select a group: Reading frame       0 time    0.000   
+Precision of combined.xtc is 0.001 (nm)
+Using output precision of 0.001 (nm)
+Reading frame       1 time  100.000    ->  frame      0 time    0.000      Reading frame       2 time  200.000    ->  frame      1 time  100.000      Reading frame       3 time  300.000    ->  frame      2 time  200.000      Reading frame       4 time  400.000    ->  frame      3 time  300.000      Reading frame       5 time  500.000    ->  frame      4 time  400.000      Reading frame       6 time  600.000    ->  frame      5 time  500.000      Reading frame       7 time  700.000    ->  frame      6 time  600.000      Reading frame       8 time  800.000    ->  frame      7 time  700.000      Reading frame       9 time  900.000    ->  frame      8 time  800.000      Reading frame      10 time 1000.000    ->  frame      9 time  900.000      Last frame         10 time 1000.000   
+ ->  frame     10 time 1000.000      
+Last written: frame     10 time 1000.000
+
+
+GROMACS reminds you: "Raw data is like raw sewage, it requires some processing before it can be spread around. The opposite is true of theories." (Jim Carr)
+
+Note that major changes are planned in future for trjconv, to improve usability and utility.
+Select group for output
+Selected 0: 'SOLV'
