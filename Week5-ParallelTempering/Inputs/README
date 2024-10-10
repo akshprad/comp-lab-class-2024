@@ -1,0 +1,30 @@
+# Setting Up Temperature Directories for GROMACS Simulations
+
+This document outlines the steps taken to set up directories containing GROMACS `.tpr` files for simulations at different temperatures (300K, 400K, and 600K).
+
+## Directories Created
+- `T300`: Contains `.tpr` file for 300K
+- `T400`: Contains `.tpr` file for 400K
+- `T600`: Contains `.tpr` file for 600K
+
+## Steps Taken
+
+1. **Directory Creation**: Created three directories: `T300`, `T400`, `T600`.
+2. **File Copying**: Copied the original `adp.tpr` file into each of these directories.
+3. **Temperature Modification**:
+   - Used `sed` to modify the temperature in the MDP file for each temperature.
+   - Used `grompp` to generate new `.tpr` files for each temperature based on the modified MDP file.
+
+## Commands Run
+```bash
+mkdir -p T300 T400 T600
+cp Inputs/adp.tpr T300/
+cp Inputs/adp.tpr T400/
+cp Inputs/adp.tpr T600/
+sed -i 's/temperature = 300/temperature = 300/g' T300/adp.mdp
+gmx grompp -f T300/adp.mdp -c T300/adp.tpr -p Inputs/adp.top -o T300/adp_T300.tpr
+sed -i 's/temperature = 300/temperature = 400/g' T400/adp.mdp
+gmx grompp -f T400/adp.mdp -c T400/adp.tpr -p Inputs/adp.top -o T400/adp_T400.tpr
+sed -i 's/temperature = 300/temperature = 600/g' T600/adp.mdp
+gmx grompp -f T600/adp.mdp -c T600/adp.tpr -p Inputs/adp.top -o T600/adp_T600.tpr
+

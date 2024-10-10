@@ -1,0 +1,1 @@
+gmx_mpi grompp -f adp_440.mdp -c adp.gro -p adp.top -o adp.tpr

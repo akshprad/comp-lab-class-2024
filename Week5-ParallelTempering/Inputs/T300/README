@@ -1,0 +1,3 @@
+sed -i 's/temperature = 300/temperature = 300/g' T300/adp.mdp 
+gmx grompp -f T300/adp.mdp -c T300/adp.tpr -p Inputs/adp.top -o T300/adp_T300.tpr
+
