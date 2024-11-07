@@ -1,0 +1,11 @@
+# Activate MOLINFO functionalities
+MOLINFO STRUCTURE=__FILL__ 
+# Compute the backbone dihedral angle phi, defined by atoms C-N-CA-C
+# you should use MOLINFO shortcuts
+phi: TORSION ATOMS=__FILL__ 
+# Compute the backbone dihedral angle psi, defined by atoms N-CA-C-N
+# here also you should to use MOLINFO shortcuts
+psi: TORSION ATOMS=__FILL__ 
+# Print the two collective variables on COLVAR file every step
+PRINT ARG=__FILL__ FILE=COLVAR STRIDE=__FILL__ 
+
