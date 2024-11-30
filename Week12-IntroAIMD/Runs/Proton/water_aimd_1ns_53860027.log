@@ -1,0 +1,230 @@
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+
+ *******************************************************************************
+ *   ___                                                                       *
+ *  /   \                                                                      *
+
+ *******************************************************************************
+ *   ___                                                                       *
+ *  /   \                                                                      *
+
+ *******************************************************************************
+ *   ___                                                                       *
+
+ *******************************************************************************
+ *   ___                                                                       *
+ *  /   \                                                                      *
+
+ *******************************************************************************
+ *   ___                                                                       *
+
+ *******************************************************************************
+ *   ___                                                                       *
+ *  /   \                                                                      *
+
+ *******************************************************************************
+ *   ___                                                                       *
+
+ *******************************************************************************
+ *   ___                                                                       *
+ *  /   \                                                                      *
+
+ *******************************************************************************
+ *   ___                                                                       *
+
+ *******************************************************************************
+ *   ___                                                                       *
+
+ *******************************************************************************
+ *   ___                                                                       *
+ * [ABORT]    Number of lines in XYZ format not equal to the number of atoms.  *
+ *  \___/    Error in XYZ format. Very probably the line with title is missing *
+ * [ABORT]    Number of lines in XYZ format not equal to the number of atoms.  *
+ *  \___/    Error in XYZ format. Very probably the line with title is missing *
+ *    |         or is empty. Please check the XYZ file and rerun your job!     *
+ *  /   \                                                                      *
+ * [ABORT]    Number of lines in XYZ format not equal to the number of atoms.  *
+ * [ABORT]    Number of lines in XYZ format not equal to the number of atoms.  *
+ *  \___/    Error in XYZ format. Very probably the line with title is missing *
+ *  /   \                                                                      *
+ * [ABORT]    Number of lines in XYZ format not equal to the number of atoms.  *
+ *  \___/    Error in XYZ format. Very probably the line with title is missing *
+ * [ABORT]    Number of lines in XYZ format not equal to the number of atoms.  *
+ *  \___/    Error in XYZ format. Very probably the line with title is missing *
+ *    |         or is empty. Please check the XYZ file and rerun your job!     *
+ *  /   \                                                                      *
+ * [ABORT]    Number of lines in XYZ format not equal to the number of atoms.  *
+ * [ABORT]    Number of lines in XYZ format not equal to the number of atoms.  *
+ *  \___/    Error in XYZ format. Very probably the line with title is missing *
+ *    |         or is empty. Please check the XYZ file and rerun your job!     *
+ *  /   \                                                                      *
+ * [ABORT]    Number of lines in XYZ format not equal to the number of atoms.  *
+ *  \___/    Error in XYZ format. Very probably the line with title is missing *
+ *  /   \                                                                      *
+ * [ABORT]    Number of lines in XYZ format not equal to the number of atoms.  *
+ *  /   \                                                                      *
+ *    |         or is empty. Please check the XYZ file and rerun your job!     *
+ *  O/|                                                                        *
+ * /| |                                                                        *
+ *  O/|                                                                        *
+ *  \___/    Error in XYZ format. Very probably the line with title is missing *
+ *    |         or is empty. Please check the XYZ file and rerun your job!     *
+ *  O/|                                                                        *
+ *    |         or is empty. Please check the XYZ file and rerun your job!     *
+ *  O/|                                                                        *
+ * /| |                                                                        *
+ *    |         or is empty. Please check the XYZ file and rerun your job!     *
+ *  O/|                                                                        *
+ * /| |                                                                        *
+ * / \                                                      topology_xyz.F:155 *
+ *  O/|                                                                        *
+ * /| |                                                                        *
+ *  \___/    Error in XYZ format. Very probably the line with title is missing *
+ *    |         or is empty. Please check the XYZ file and rerun your job!     *
+ *  O/|                                                                        *
+ * /| |                                                                        *
+ *    |         or is empty. Please check the XYZ file and rerun your job!     *
+ *  O/|                                                                        *
+ *  \___/    Error in XYZ format. Very probably the line with title is missing *
+ *    |         or is empty. Please check the XYZ file and rerun your job!     *
+ * [ABORT]    Number of lines in XYZ format not equal to the number of atoms.  *
+ *  \___/    Error in XYZ format. Very probably the line with title is missing *
+ * / \                                                      topology_xyz.F:155 *
+ *******************************************************************************
+
+ * /| |                                                                        *
+ * / \                                                      topology_xyz.F:155 *
+ * /| |                                                                        *
+ * / \                                                      topology_xyz.F:155 *
+ *******************************************************************************
+ * / \                                                      topology_xyz.F:155 *
+ *******************************************************************************
+
+ *******************************************************************************
+
+ * / \                                                      topology_xyz.F:155 *
+ *******************************************************************************
+
+ *  O/|                                                                        *
+ * /| |                                                                        *
+ * / \                                                      topology_xyz.F:155 *
+ *******************************************************************************
+
+ * /| |                                                                        *
+ * / \                                                      topology_xyz.F:155 *
+ *******************************************************************************
+ *  O/|                                                                        *
+ * /| |                                                                        *
+ *    |         or is empty. Please check the XYZ file and rerun your job!     *
+ *  O/|                                                                        *
+ * /| |                                                                        *
+
+ ===== Routine Calling Stack ===== 
+
+ *******************************************************************************
+
+
+
+ ===== Routine Calling Stack ===== 
+
+
+ ===== Routine Calling Stack ===== 
+
+
+ ===== Routine Calling Stack ===== 
+
+ * / \                                                      topology_xyz.F:155 *
+ *******************************************************************************
+
+
+ ===== Routine Calling Stack ===== 
+
+
+
+ * / \                                                      topology_xyz.F:155 *
+ *******************************************************************************
+
+ * / \                                                      topology_xyz.F:155 *
+ *******************************************************************************
+
+            5 read_coordinate_xyz
+            4 coordinate_control_READ_COORDINATE
+            3 coordinate_control
+
+
+ ===== Routine Calling Stack ===== 
+
+            5 read_coordinate_xyz
+            4 coordinate_control_READ_COORDINATE
+            3 coordinate_control
+            2 topology_control
+            5 read_coordinate_xyz
+            4 coordinate_control_READ_COORDINATE
+            3 coordinate_control
+            5 read_coordinate_xyz
+            4 coordinate_control_READ_COORDINATE
+            3 coordinate_control
+
+ ===== Routine Calling Stack ===== 
+
+            5 read_coordinate_xyz
+            4 coordinate_control_READ_COORDINATE
+            3 coordinate_control
+            2 topology_control
+ ===== Routine Calling Stack ===== 
+
+
+ ===== Routine Calling Stack ===== 
+
+
+ ===== Routine Calling Stack ===== 
+
+            2 topology_control
+            1 CP2K
+ ===== Routine Calling Stack ===== 
+
+            5 read_coordinate_xyz
+            4 coordinate_control_READ_COORDINATE
+            3 coordinate_control
+            1 CP2K
+            2 topology_control
+            1 CP2K
+            2 topology_control
+            1 CP2K
+            5 read_coordinate_xyz
+            4 coordinate_control_READ_COORDINATE
+            3 coordinate_control
+            1 CP2K
+            5 read_coordinate_xyz
+            4 coordinate_control_READ_COORDINATE
+            3 coordinate_control
+            5 read_coordinate_xyz
+            4 coordinate_control_READ_COORDINATE
+            3 coordinate_control
+            5 read_coordinate_xyz
+            4 coordinate_control_READ_COORDINATE
+            3 coordinate_control
+            5 read_coordinate_xyz
+            4 coordinate_control_READ_COORDINATE
+            3 coordinate_control
+            2 topology_control
+            2 topology_control
+            1 CP2K
+            2 topology_control
+            1 CP2K
+            2 topology_control
+            1 CP2K
+            2 topology_control
+            1 CP2K
+            2 topology_control
+            1 CP2K
+            1 CP2K
+[cm005.hpc.nyu.edu:3766673] 11 more processes have sent help message help-mpi-api.txt / mpi-abort
+[cm005.hpc.nyu.edu:3766673] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
