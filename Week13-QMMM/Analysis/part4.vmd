@@ -1,0 +1,24 @@
+# Load the structure and trajectory files
+mol new /home/ap8064/comp-lab-class/comp-lab-class-2024/Week13-QMMM/Outputs/complex_LJ_mod.prmtop
+mol addfile /home/ap8064/comp-lab-class/comp-lab-class-2024/Week13-QMMM/Outputs/metad1_initmonitor/METADYN-pos-1.xyz.gz
+
+# Select the ligand and display it using dynamic bonds
+set ligand [atomselect top "resid 1"]  # Change "resid 1" based on your ligand's residue number
+ligand set bonddynamic
+
+# Select the protein and show sidechains around the ligand
+set protein [atomselect top "protein"]
+protein set selection dynamic
+
+# Save an image before the reaction
+render snapshot /home/ap8064/comp-lab-class/comp-lab-class-2024/Week13-QMMM/Images/before_reaction.png
+
+# Load another frame from after the reaction
+mol new /home/ap8064/comp-lab-class/comp-lab-class-2024/Week13-QMMM/Outputs/metad1_initmonitor/METADYN-pos-1.xyz.gz
+
+# Save the image after the reaction
+render snapshot /home/ap8064/comp-lab-class/comp-lab-class-2024/Week13-QMMM/Images/after_reaction.png
+
+# Optional: Create a movie of the reaction (save frames)
+movie write frames /home/ap8064/comp-lab-class/comp-lab-class-2024/Week13-QMMM/Images/reaction_movie.tcl
+

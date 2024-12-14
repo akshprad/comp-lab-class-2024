@@ -1,0 +1,21 @@
+# Load the files
+mol new Inputs/complex.prmtop
+mol addfile Inputs/complex.inpcrd
+
+# Set the protein representation (New Cartoon)
+mol representation NewCartoon
+mol selection protein
+mol color Name
+
+# Set the ligand representation (CPK)
+mol representation CPK
+mol selection "not protein and not water and not ion"
+mol color Element
+
+# Center on one of the ligands (for example, first ligand)
+set sel [atomselect top "resname LIG"]
+$sel move [measure fit $sel [atomselect top "all"]]
+
+# Render the view
+display resetview
+

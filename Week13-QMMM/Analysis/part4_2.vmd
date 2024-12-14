@@ -1,0 +1,11 @@
+# Load structure and trajectory files again
+mol new /home/ap8064/comp-lab-class/comp-lab-class-2024/Week13-QMMM/Outputs/complex_LJ_mod.prmtop
+mol addfile /home/ap8064/comp-lab-class/comp-lab-class-2024/Week13-QMMM/Outputs/metad1_initmonitor/METADYN-pos-1.xyz.gz
+
+# Select ligand and display with dynamic bonds
+set ligand [atomselect top "resid 1"]
+ligand set bonddynamic
+
+# Save frames to create a movie
+movie write frames /home/ap8064/comp-lab-class/comp-lab-class-2024/Week13-QMMM/Images/reaction_movie.tcl
+
